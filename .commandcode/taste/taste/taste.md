@@ -1,0 +1,13 @@
+# Taste
+- Explicitly wants the assistant to ask before assuming whenever requirements turn out ambiguous once real files/data are inspected. Confidence: 0.9
+- Holds specs literally: when the assistant flagged a formula as likely wrong and recommended an alternative, the user chose the literal spec reading. Implement as specified; surface concerns but don't deviate without confirmation. Confidence: 0.75
+- Third-party API keys must live in server-side env vars only; the backend proxies all external API calls — clients never call third-party APIs or see keys directly. Confidence: 0.85
+- Local data files (e.g. `stocks.yml`) are read by the backend from the filesystem, never fetched client-side. Confidence: 0.75
+- Prefers a fat backend / thin frontend: a single endpoint (e.g. `GET /api/portfolio`) returns fully computed, ready-to-render data in one response. Confidence: 0.65
+- No client-side caching of fetched data — re-fetch fresh on every page load. Short server-side caching (~30–60s TTL) of external API responses is desired to avoid rate limits. Confidence: 0.7
+- Graceful degradation over hard failure: if one item fails (e.g. missing price), show "N/A" for that item's derived fields rather than failing the whole page; empty/missing data should render zeroed-out values, not errors. Confidence: 0.75
+- Loading states should not block rendering: display data that's already available (static fields) immediately while async data loads. Confidence: 0.7
+- Currency formatted to 2 decimals with a currency symbol; percentages to 1–2 decimals with `%`; positive values colored green, negative red. Confidence: 0.6
+- Wants plan documents saved as `plan.md` in the project root (not only in the internal plans directory). Confidence: 0.7
+- Expects README.md to be kept in sync with the project: after significant changes, update it with all new relevant information (architecture, setup, data model, env vars, scripts). Confidence: 0.6
+- Prefers card-based per-item UI over tables for displaying collections (e.g. replaced a stocks table with one card per stock in a responsive grid). Confidence: 0.65

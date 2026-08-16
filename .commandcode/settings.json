@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(npm:*)",
+      "Shell(npx eslint .)",
+      "Shell(ls:*)",
+      "Shell(npm view eslint version 2>&1; node -e \"console.log(require('eslint/package.json').version)\" 2>&1 | head -2)",
+      "Shell(grep:*)",
+      "Shell(ls -la | grep -i npmrc; cat .npmrc 2>/dev/null; npm config list 2>&1 | head -20)",
+      "Shell(mv:*)",
+      "Shell(ls node_modules/.bin | sort | tr '\\n' ' '; echo; ls node_modules/@eslint 2>/dev/null; echo \"---\"; ls node_modules | wc -l)",
+      "Shell(node -e \"const p=require('./node_modules/cowsay/package.json'); console.log('cowsay workspaces:', JSON.stringify(p.workspaces))\"; npm view eslint@9.39.1 workspaces 2>&1; npm view eslint@10.8.1 workspaces 2>&1)",
+      "Shell(rm:*)",
+      "Shell(node -e const l=require('./package-lock.json'); const e=l.packages['node_modules/eslint']; console.log(e && e.version))",
+      "Shell(node -e const l=require('./package-lock.json'); console.log(JSON.stringify(l.packages['node_modules/eslint'], null, 1)))",
+      "Shell(node -e console.log(require('./node_modules/eslint/package.json').version) 2 >& 1)",
+      "Shell(node -e console.log(require('./node_modules/@eslint/js/package.json').version))",
+      "Shell(agent-browser:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

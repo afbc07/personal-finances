@@ -1,0 +1,238 @@
+title: My Stocks
+currency: USD
+stocks:
+  - ticker: JNJ
+    name: Johnson & Johnson
+    sector: Healthcare
+    movements:
+      - date: 2025-10-15
+        amount: 0.89772
+        price: 138.3
+      - date: 2025-10-15
+        amount: 0.2289
+        price: 37.3
+  - ticker: QQQ
+    name: Invesco QQQ Trust
+    sector: Technology
+    movements:
+      - date: 2025-10-15
+        amount: 1.00658
+        price: 476.20
+  - ticker: GLD
+    name: SPDR Gold Shares
+    sector: Commodities (Gold)
+    movements:
+      - date: 2026-01-01
+        amount: 0.56617
+        price: 153.00
+  - ticker: TQQQ
+    name: ProShares UltraPro QQQ
+    sector: Leveraged Equity (Technology)
+    movements:
+      - date: 2026-01-01
+        amount: 4.67050
+        price: 238.15
+  - ticker: AAPL
+    name: Apple Inc.
+    sector: Technology
+    movements:
+      - date: 2026-01-01
+        amount: 2.62590
+        price: 545.65
+  - ticker: SPY
+    name: SPDR S&P 500 ETF Trust
+    sector: Equity Index (Broad Market)
+    movements:
+      - date: 2026-01-01
+        amount: 1.27616
+        price: 679.00
+  - ticker: IGLN.L
+    name: iShares Physical Gold ETC
+    sector: Commodities (Gold)
+    movements:
+      - date: 2026-01-01
+        amount: 2.00000
+        price: 129.49
+  - ticker: MRNA
+    name: Moderna, Inc.
+    sector: Healthcare (Biotechnology)
+    movements:
+      - date: 2026-01-01
+        amount: 1.61450
+        price: 76.00
+  - ticker: VOO
+    name: Vanguard S&P 500 ETF
+    sector: Equity Index (Broad Market)
+    movements:
+      - date: 2026-01-01
+        amount: 1.88010
+        price: 989.05
+  - ticker: KO
+    name: The Coca-Cola Company
+    sector: Consumer Staples (Beverages)
+    movements:
+      - date: 2026-01-01
+        amount: 6.19936
+        price: 401.16
+  - ticker: CNDX.L
+    name: iShares NASDAQ 100 UCITS ETF
+    sector: Technology (Equity Index)
+    movements:
+      - date: 2026-01-01
+        amount: 0.26620
+        price: 350.00
+  - ticker: AMZN
+    name: Amazon.com, Inc.
+    sector: Consumer Discretionary
+    movements:
+      - date: 2026-01-01
+        amount: 2.49739
+        price: 538.15
+  - ticker: MSFT
+    name: Microsoft Corporation
+    sector: Technology
+    movements:
+      - date: 2026-01-01
+        amount: 1.37380
+        price: 550.1
+  - ticker: VUAA.L
+    name: Vanguard S&P 500 UCITS ETF (Acc)
+    sector: Equity Index (Broad Market)
+    movements:
+      - date: 2026-01-01
+        amount: 7.09450
+        price: 895.20
+  - ticker: UNH
+    name: UnitedHealth Group Incorporated
+    sector: Healthcare
+    movements:
+      - date: 2026-01-01
+        amount: 0.78280
+        price: 274.17
+  - ticker: VWO
+    name: Vanguard FTSE Emerging Markets ETF
+    sector: Equity Index (Emerging Markets)
+    movements:
+      - date: 2026-01-01
+        amount: 7.64193
+        price: 421.29
+  - ticker: BRK.B
+    name: Berkshire Hathaway Inc.
+    sector: Financials (Conglomerate)
+    movements:
+      - date: 2026-01-01
+        amount: 4.19090
+        price: 1960.00
+  - ticker: ORCL
+    name: Oracle Corporation
+    sector: Technology
+    movements:
+      - date: 2026-01-01
+        amount: 2.72000
+        price: 390.14
+  - ticker: ASWC.F
+    name: HANetf Future of Defence UCITS ETF
+    sector: Defence / Aerospace & Defense
+    movements:
+      - date: 2026-01-01
+        amount: 10.00000
+        price: 182.73
+  - ticker: QCOM
+    name: Qualcomm Incorporated
+    sector: Technology (Semiconductors)
+    movements:
+      - date: 2026-01-01
+        amount: 2.44300
+        price: 393.31
+  - ticker: NU
+    name: Nu Holdings Ltd.
+    sector: Financials (Fintech/Banking)
+    movements:
+      - date: 2026-01-01
+        amount: 4.00000
+        price: 55.96
+  - ticker: PG
+    name: The Procter & Gamble Company
+    sector: Consumer Staples
+    movements:
+      - date: 2026-01-01
+        amount: 1.67764
+        price: 250.15
+  - ticker: DAPP.L
+    name: VanEck Crypto and Blockchain Innovators UCITS ETF
+    sector: Technology (Digital Assets/Blockchain)
+    movements:
+      - date: 2026-01-01
+        amount: 22.00000
+        price: 283.28
+  - ticker: BAM
+    name: Brookfield Asset Management Ltd.
+    sector: Financials (Asset Management)
+    movements:
+      - date: 2026-01-01
+        amount: 8.04211
+        price: 457.43
+  - ticker: VBTC.F
+    name: VanEck Bitcoin ETN
+    sector: Commodities (Cryptocurrency)
+    movements:
+      - date: 2026-01-01
+        amount: 13.27660
+        price: 489.76
+  - ticker: MCD
+    name: McDonald's Corporation
+    sector: Consumer Discretionary (Restaurants)
+    movements:
+      - date: 2026-01-01
+        amount: 0.43420
+        price: 130.00
+  - ticker: ARKK
+    name: ARK Innovation ETF
+    sector: Technology (Growth Equity)
+    movements:
+      - date: 2026-01-01
+        amount: 2.00000
+        price: 179.3
+  - ticker: ADBE
+    name: Adobe Inc.
+    sector: Technology (Software)
+    movements:
+      - date: 2026-01-01
+        amount: 1.76220
+        price: 549.62
+  - ticker: MELI
+    name: MercadoLibre, Inc.
+    sector: Consumer Discretionary (E-commerce)
+    movements:
+      - date: 2026-01-01
+        amount: 0.21839
+        price: 500.30
+  - ticker: CMG
+    name: Chipotle Mexican Grill, Inc.
+    sector: Consumer Discretionary (Restaurants)
+    movements:
+      - date: 2026-01-01
+        amount: 6.30680
+        price: 258.00
+  - ticker: IT
+    name: Gartner, Inc.
+    sector: Technology (IT Research & Advisory)
+    movements:
+      - date: 2026-01-01
+        amount: 0.54402
+        price: 134.15
+  - ticker: IBIT
+    name: iShares Bitcoin Trust
+    sector: Commodities (Cryptocurrency)
+    movements:
+      - date: 2026-01-01
+        amount: 14.66002
+        price: 800.3
+  - ticker: NKE
+    name: Nike, Inc.
+    sector: Consumer Discretionary (Apparel)
+    movements:
+      - date: 2026-01-01
+        amount: 3.20000
+        price: 264.45
+  
